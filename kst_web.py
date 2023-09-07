@@ -10,7 +10,7 @@ def index():
 def result():
     userId = request.form.get("user-id")
     userPass = request.form.get("user-pass")
-    if userId == "a" and userPass == "a":
+    if userId == "a" and userPass == "a": #気づいても見なかったことにしてね
         return render_template("result.html", userId=userId, userPass=userPass)
     else:
         return redirect("/")
