@@ -1,0 +1,86 @@
+*{box-sizing: border-box;}
+
+html, body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(103, 182, 113);
+  font-family: 'Arial', sans-serif;
+  user-select: none;
+}
+
+.container h1{  
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.wrap{
+  position: relative;
+  width: 500px;
+  height: 250px;
+ 
+  margin: 0 auto;
+}
+
+input[name="user-id"]{
+  position: relative;
+  display: block;
+  width: 500px;
+  margin-top: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+
+input[name="user-pass"]{
+  position: relative;
+  display: block;
+  width: 500px;
+  margin-top: 25px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.5rem;
+  font-weight: 550;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 7.5px 15px;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  margin-left: 190px;
+  margin-top: 30px;
+}
+
+.btn-submit,
+a.btn-submit {
+  color: #fff;
+  background-color: rgb(29, 130, 231);
+}
+.btn-submit:hover,
+a.btn-submit:hover {
+  color: #fff;
+  background: rgb(23, 108, 194);
+}
